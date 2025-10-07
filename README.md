@@ -18,4 +18,4 @@
 
 1. Nutuk: Atatürk'ün Nutuk kitabının modern Türkçe'ye uyarlanmış halinin işlenerek saf metin olacak şekilde ayarlandığı veri seti. Dosyanın kaynağını Google'a Nutuk PDF yazdığınızda çıkan resmi websayfalarında paylaşılan dosyalardan bulabilirsiniz.
 
-2. Türkçe isimler: Bu veri setinde internet üzerinde açıkça paylaşılan seçmen, öğrenci, bebek (TÜİK) gerçek insan isimlerinden derlenmiş 1144 özgün isim karakter düzeyinde LLM uygulamaları için hazırlanmıştır.
+2. Türkçe isimler: Bu veri setinde internet üzerinde açıkça paylaşılan seçmen, öğrenci, bebek (TÜİK) gerçek insan isimlerinden derlenmiş 1175 özgün isim karakter düzeyinde LLM uygulamaları için hazırlanmıştır.
