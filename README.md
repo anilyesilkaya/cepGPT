@@ -1,21 +1,17 @@
 # cepGPT (pocketGPT)
-**Sıfırdan Türkçe için özel olarak tasarlanmış en basit ve en hızlı GPT serisi.**  
-[karpathy/nanoGPT](https://github.com/karpathy/nanoGPT)'den ilham alan, **Türkçe** veri, tokenizasyon ve değerlendirme için ilk ilkelerden yeniden oluşturulmuş temiz, minimal, araştırma dostu bir yeniden uygulama.
+```
+Veri içinde boğuluyoruz, ama bilgiye açız.
 
----
+-John Naisbitt
+```
+Yukarıdaki ifade, bu depoda yapmak istediğim şeyi tam olarak anlatıyor. Bu proje serisiyle hem doğal dil işleme tekniklerini, Türkçe dil istatistiklerini hem de tamamen Türkçe için geliştirilmiş bir dil modeli oluşturma fikrini hayata geçirmeye çalışıyorum.  
 
-## 🚀 Öne Çıkanlar
-- **Sıfırdan**: Küçük, okunabilir kod tabanı—öğrenmek ve geliştirmek için harika.
-- **Türkçe öncelikli**: **İ/ı, Ç/ç, Ğ/ğ, Ö/ö, Ş/ş, Ü/ü**, apostroflar, klitikler ve üç nokta işaretlerinin düzgün işlenmesi.
-- **Tak-çalıştır tokenizasyon**: Karakter, kelime veya BPE düzeyinde (kendi tokenizer'ınız veya [turktoken](https://github.com/anilyesilkaya/turktoken) ile çalışır).
-- **Küçük model profilleri**: Hızlı iterasyonlar için `minik` (çok küçük), `mini` (küçük), `small` (kompakt).
-- **Tekrarlanabilir**: Deterministik çalıştırmalar, yapılandırma dosyaları ve tohum kontrolü.
-- **Hızlı**: Didaktik deneyler için tek bir GPU veya CPU üzerinde eğitim.
+Süreç boyunca Andrej Karpathy’nin [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) deposundan ilham aldım ve onun ötesine geçmeye çalıştım.
 
 ---
 
 ## 🚀 Veri Setleri
 
-1. Nutuk: Atatürk'ün Nutuk kitabının modern Türkçe'ye uyarlanmış halinin işlenerek saf metin olacak şekilde ayarlandığı veri seti. Dosyanın kaynağını Google'a Nutuk PDF yazdığınızda çıkan resmi websayfalarında paylaşılan dosyalardan bulabilirsiniz.
+1. **Nutuk:** Atatürk'ün Nutuk kitabının modern Türkçe'ye uyarlanmış halinin işlenerek saf metin olacak şekilde ayarlandığı veri seti. Dosyanın kaynağını Google'a Nutuk PDF yazdığınızda çıkan resmi websayfalarında paylaşılan dosyalardan bulabilirsiniz.
 
-2. Türkçe isimler: Bu veri setinde internet üzerinde açıkça paylaşılan seçmen, öğrenci, bebek (TÜİK) gerçek insan isimlerinden derlenmiş 1175 özgün isim karakter düzeyinde LLM uygulamaları için hazırlanmıştır. Not: Yabancı isimler ve nadir isimler filtrelenmiştir.
+2. **Türkçe isimler:** Bu veri setinde internet üzerinde açıkça paylaşılan seçmen, öğrenci, bebek (TÜİK), YSK ve benzeri kaynaklarda geçen gerçek insan isimlerinden derlenmiş 2315 özgün isim karakter düzeyinde LLM uygulamaları için hazırlanmıştır. Not: Yabancı isimler ve nadir isimler filtrelenmiştir.
