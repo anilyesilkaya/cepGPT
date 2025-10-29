@@ -14,4 +14,5 @@ Süreç boyunca Andrej Karpathy’nin [karpathy/nanoGPT](https://github.com/karp
 
 1. **Nutuk:** Atatürk'ün Nutuk kitabının modern Türkçe'ye uyarlanmış halinin işlenerek saf metin olacak şekilde ayarlandığı veri seti. Dosyanın kaynağını Google'a Nutuk PDF yazdığınızda çıkan resmi websayfalarında paylaşılan dosyalardan bulabilirsiniz.
 
-2. **Türkçe isimler:** Bu veri setinde internet üzerinde açıkça paylaşılan seçmen, öğrenci, bebek (TÜİK), YSK ve benzeri kaynaklarda geçen gerçek insan isimlerinden derlenmiş 2315 özgün isim karakter düzeyinde LLM uygulamaları için hazırlanmıştır. Not: Yabancı isimler ve nadir isimler filtrelenmiştir.
+2. **Türkçe isimler:** Bu veri seti, internet üzerinde açıkça paylaşılan seçmen, öğrenci, bebek (TÜİK), YSK ve benzeri kaynaklarda geçen gerçek insan isimlerinden (gizlilik nedeniyle yalnızca ad kısmı kullanılmıştır) derlenmiş 2,315 özgün ismi içermektedir. Veri seti karakter düzeyinde LLM uygulamaları için hazırlanmıştır.
+Not: Yabancı ve nadir isimler filtrelenmiştir.
